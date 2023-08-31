@@ -10,7 +10,7 @@ This is my personal nvim configuration.
 3. clone this repo to your config
     Linux:
     ```
-    git clone https://github.com/wim07101993/nvim.config.git ~/.conig/nvim
+    git clone https://github.com/wim07101993/nvim.config.git ~/.config/nvim
     ```
 
     Windows:
