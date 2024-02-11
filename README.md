@@ -18,8 +18,3 @@ This is my personal nvim configuration.
     git clone https://github.com/wim07101993/nvim.config.git "$env:LOCALAPPDATA\nvim"
     ```
 3. open nvim
-4. run vim commands
-    ```
-    :PackerCompile
-    :PackerSync
-    ```
