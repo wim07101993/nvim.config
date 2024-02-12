@@ -4,13 +4,13 @@
 return {
     "folke/which-key.nvim",
     event = "VeryLazy",
-    init = function() 
+    init = function()
         vim.o.timeout = true
         vim.o.timeoutlen = 300
     end,
     opts = {
     },
-    config = function() 
+    config = function()
         local wk = require("which-key")
         wk.register({
             f = {
@@ -18,9 +18,8 @@ return {
                 b = { "<cmd>Telescope buffers<cr>", "Find buffer" },
                 f = { "<cmd>Telescope find_files<cr>", "Find file" },
                 g = { "<cmd>Telescope live_grep<cr>", "Find with grep" },
-                p = { "<cmd>Telescope git_files<cr>", "Find Project file (git)" }, 
+                p = { "<cmd>Telescope git_files<cr>", "Find Project file (git)" },
             }
         }, { prefix = "<leader>" })
-        
     end,
 }
